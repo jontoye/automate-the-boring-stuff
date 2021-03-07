@@ -9,7 +9,7 @@ TEXT = {
 }
 
 if len(sys.argv) < 2:
-    print("Usage: python mclip.y [keyphrase] - copy phrase text")
+    print("Usage: python mclip.py [keyphrase] - copy phrase text")
     sys.exit()
 
 keyphrase = sys.argv[1]
